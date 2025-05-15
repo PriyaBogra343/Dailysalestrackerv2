@@ -50,3 +50,8 @@ on:
     #    name: alerts
     #    path: ${{ steps.msdo.outputs.sarifFile }}
 
+ymlCopy
+# Triggers the workflow on push or pull request events but only for the main branch
+pull_request:
+  branches: ["main"]
+
